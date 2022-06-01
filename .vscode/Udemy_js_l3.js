@@ -15,3 +15,5 @@ const userProfile = {
 }
 
 console.log(userProfile)
+delete userProfile.hasSignedAgreement
+console.log(userProfile)
