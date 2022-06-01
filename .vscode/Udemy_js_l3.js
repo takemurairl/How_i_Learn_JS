@@ -14,6 +14,7 @@ const userProfile = {
     hasSignedAgreement: false
 }
 
-console.log(userProfile)
-delete userProfile.hasSignedAgreement
-console.log(userProfile)
+console.log(userProfile);
+delete userProfile.hasSignedAgreement;
+console.log(userProfile);
+console.log(userProfile.name);
